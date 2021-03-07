@@ -1,5 +1,4 @@
-# VSConfig
-settings.json of vs code
+# VSConfigsettings
 {
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -19,7 +18,7 @@ settings.json of vs code
 	"workbench.iconTheme": "material-icon-theme",
 	"powermode.enabled": true,
 	"workbench.startupEditor": "newUntitledFile",
-	"powermode.explosionSize": 7,
+	"powermode.explosionSize": 10,
 	"editor.fontFamily": "Victor Mono",
 	"editor.mouseWheelZoom": true,
 	"winopacity.opacity": 240,
@@ -99,41 +98,41 @@ settings.json of vs code
 			//notificaciones
 			"activityBarBadge.background": "#296399",
 			"activityBarBadge.foreground": "#e8eef3",
-			"activityBar.activeBorder": "#22F2AE",
+			"activityBar.activeBorder": "#db717a",
 			"list.activeSelectionForeground": "#ddd",
 			"list.inactiveSelectionForeground": "#ddd",
 			"list.highlightForeground": "#6900ff",
-			"scrollbarSlider.activeBackground": "#22F2AE",
-			"editorSuggestWidget.highlightForeground": "#22F2AE",
-			"textLink.foreground": "#22F2AE",
-			"progressBar.background": "#22F2AE",
-			"tab.activeBorder": "#22F2AE",
-			"notificationLink.foreground": "#22F2AE",
-			"editorWidget.resizeBorder": "#22F2AE",
-			"editorWidget.border": "#22F2AE",
-			"settings.modifiedItemIndicator": "#22F2AE",
-			"settings.headerForeground": "#22F2AE",
-			"panelTitle.activeBorder": "#22F2AE",
-			"breadcrumb.activeSelectionForeground": "#22F2AE",
-			"menu.selectionForeground": "#22F2AE",
-			"menubar.selectionForeground": "#22F2AE",
-			"editor.findMatchBorder": "#22F2AE",
-			"selection.background": "#22F2AE",
-			"statusBarItem.remoteBackground": "#22F2AE",
+			"scrollbarSlider.activeBackground": "#ec9572",
+			"editorSuggestWidget.highlightForeground": "#ec9572",
+			"textLink.foreground": "#ec9572",
+			"progressBar.background": "#ec9572",
+			"tab.activeBorder": "#ec9572",
+			"notificationLink.foreground": "#ec9572",
+			"editorWidget.resizeBorder": "#ec9572",
+			"editorWidget.border": "#ec9572",
+			"settings.modifiedItemIndicator": "#ec9572",
+			"settings.headerForeground": "#ec9572",
+			"panelTitle.activeBorder": "#ec9572",
+			"breadcrumb.activeSelectionForeground": "#ec9572",
+			"menu.selectionForeground": "#ec9572",
+			"menubar.selectionForeground": "#ec9572",
+			"editor.findMatchBorder": "#ec9572",
+			"selection.background": "#ec9572",
+			"statusBarItem.remoteBackground": "#ec9572",
 			"tab.inactiveBackground": "#16171d",
 			//parte iferior del visual estudio
-			"statusBar.foreground": "#22F2AE",
+			"statusBar.foreground": "#ec9572",
 			"statusBarItem.hoverBackground": "#2E4053",
 
 			//activity bar
-			"activityBar.foreground": "#22F2AE",
+			"activityBar.foreground": "#ec9572",
 			"activityBar.activeBackground": "#273746",
-			"editor.selectionBackground": "#2896717a",
-			"editorLineNumber.activeForeground": "#dac935",
-			"editorLineNumber.foreground": "#22F2AE",
+			"editor.selectionBackground": "#28969641",
+			"editorLineNumber.activeForeground": "#3e8ae0",
+			"editorLineNumber.foreground": "#ec9572",
 
 			//editor cursor
-			"editorCursor.foreground": "#ff5733"
+			"editorCursor.foreground": "#f7c94a"
 		}
 	},
 	"editor.tokenColorCustomizations": {
@@ -170,5 +169,9 @@ settings.json of vs code
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.cursorWidth": 2,
 	"editor.cursorWidth": 2,
-	"editor.cursorSmoothCaretAnimation": true
+	"editor.cursorSmoothCaretAnimation": true,
+	/* power mode */
+	"powermode.explosionOffset": 0.3,
+	"powermode.shakeIntensity": 3
 }
+
